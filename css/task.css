@@ -1,0 +1,389 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family:monospace ;
+}
+.navbar
+{
+width: 100%;
+height: 40px;
+background-color: rgb(7, 73, 11);
+}
+.navbar ul
+{
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+}
+.navbar ul li
+{
+    display: inline-block;
+
+}
+.navbar ul li a
+{
+    text-decoration:none ;
+    color: rgb(173, 173, 20);
+    margin-left: 20px;
+    font-size: 15px;
+
+}
+.navbar ul li a.active
+{
+    color: white;
+}
+/* web */
+.web
+{
+    width: 100%;
+    height: 525px;
+    background-image: url(cnano_natural_environment.jpg);
+    background-size:cover ;
+    text-align: center;
+}
+.content1
+{
+    padding-top: 100px;
+    margin-bottom: 60px;
+
+}
+.content1 h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+.content1 p
+{
+    letter-spacing: 10px;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+.content2
+{
+    color: white;
+    font-size: 17px;
+}
+.content3
+{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    bottom: 0;
+    left: 40%;
+    background: olivedrab;
+    padding: 15px;
+    width: 250px;
+}
+.content3:after
+{
+    content: "";
+    border-top:20px solid olivedrab ;
+    border-right:20px solid transparent ;
+    border-left:20px solid transparent ;
+    position: relative;
+    top: 55px;
+    left: -75px;
+}
+/* image */
+.image
+{
+    width: 100%;
+    background-size: cover;
+}
+.img
+{
+    background-image: url(g.jfif);
+    width:25%;
+    height: 300px;
+    float: left;
+    background-size: cover;
+
+}
+.over
+{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+}
+.image .img:hover .over
+{
+    opacity: 1
+}
+.image .i_1 {background: url(part1.jfif);background-size: cover;}
+.image .i_2 {background: url(287613196.jpg);background-size: cover;}
+.image .i_3 {background: url(hf.jfif);background-size: cover;}
+.image .i_4 {background: url(sgh.jfif); background-size: cover;}
+.image .i_5 {background: url(eghde.jfif); background-size: cover;}
+.image .i_6 {background: url(a.jfif);background-size: cover;}
+.image .i_7 {background: url(b.jfif);background-size: cover;}
+.image .i_8 {background: url(c.jfif);background-size: cover;}
+.image .i_9 {background: url(d.jfif);background-size: cover;}
+.image .i_9 {background: url(d.jfif);background-size: cover;}
+.image .i_10 {background: url(e.jfif);background-size: cover;}
+.image .i_11 {background: url(f.jfif);background-size: cover;}
+.clear
+{
+    clear: both;
+}
+/* meet */
+.meet
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    background: #f5f5f5;
+}
+.head
+{
+    position: absolute;
+    top: 0;
+    background: rgb(6, 78, 34);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size:20px ;
+    line-height:50px ;
+    text-transform: capitalize;
+}
+.head:after
+{
+    content:"" ;
+    border-top: 20px solid  rgb(6, 78, 34);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    top: 55px;
+    left: -80px;
+}
+.meet h2
+{
+    margin: 0;
+    padding:10%;
+    color: rgb(23, 207, 84);
+
+}
+.meet .meet_image
+{
+   display: inline-block;
+   margin-top: 10px;
+
+}
+.meet h3
+{
+    color: rgb(24, 182, 103);
+    font-size: 28px;
+    letter-spacing: 5px;
+    top: 0;
+
+}
+.meet p
+{
+font-size: 20px;
+}
+.meet button
+{
+    width: 150px;
+    padding: 10px;
+    color: white;
+    background:  rgb(0, 0, 0);
+    border: 0;
+    cursor: pointer;
+    border-radius: 7px;
+}
+/* end */
+.end
+{
+    width: 100%;
+    background: url(ghj.jfif);
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+    float: left;
+    
+    
+
+}
+.end .content1
+{
+    width: 400px;
+   display: inline-block;
+    margin-left: 15px;
+}
+.end h2
+{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.end p
+{
+    font-size:15px;
+    letter-spacing: 0;
+}
+.end button
+{
+    margin-top: 8%;
+    background: rgb(255, 255, 255);
+    border: 0;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.end .bol
+{
+    text-align: center;
+    margin-top: 7%;
+}
+.end .bol span 
+{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+   background: white;
+   border-radius: 50%;
+}
+.end .bol span:hover
+{
+    background: rgb(6, 78, 34);
+}
+/* footer */
+.footer
+{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background: #dddddd;
+    line-height: 80px;
+    font-size: 25px;
+}
+/********************** contact 2****************/
+.contact
+{
+    width: 100%;
+    height: 800px;
+    background:url(jfrhc.jfif) ;
+    background-size: cover;
+    text-align: center;
+
+}
+.contact h2
+{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding-top:8%;
+    font-style: italic ;
+}
+.contact p
+{
+    font-size: 20px;
+    padding-top: 0;
+}
+.contact .form
+{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+   
+}
+.contact .form h2
+{
+color: green;
+font-size: 25px;
+padding-bottom: 15px;
+}
+.contact .form input[type=text]
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 35px;
+    border: 0;
+    background:green ;
+    border-radius: 7px;
+    padding-left: 15px;
+    
+}
+textarea
+{
+    height: 150px;
+    width: 100%;
+    background: green;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+.contact .form input[type=submit]
+{float: right;
+    border: 0;
+    background: white;
+    padding:10px ;
+    cursor: pointer;
+}
+/* last */
+.last
+{
+    text-align: center;
+    width: 100%;
+    background: #f5f5f5;
+    padding-top: 2%;
+}
+.last h2
+{
+    font-size: 30px;
+    color: green;
+    margin: 0;
+}
+.last p
+{
+    font-size: 20px;
+    
+}
+/***********book online 3 **************/
+.contact .cover
+{
+    background: white;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding-top: 5%;
+}
+.contact .cover .left
+{
+    width: 45%;
+    float: left;
+    margin-left: 15px;
+    height: 160px;
+}
+.contact .cover .left img
+{
+    width: 100%;
+    
+}
+.contact .right
+{
+    width: 45%;
+    float: right;
+    background: #eeeeee;
+    margin-right: 15px;
+    height:200px ;
+    padding-top: 7%;
+   
+}
+.contact .right button
+{
+    background: black;
+    color: white;
+    border: 0;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
